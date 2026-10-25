@@ -18,7 +18,7 @@
 
 ## 📌 Overview
 
-Graylog server configuration hardening auditor (offline, read-only)
+OGraylogX — Graylog Server Configuration Hardening Auditor. It provides stdlib properties / YAML-lite / JSON / pipeline / proxy parsers; server.conf & graylog.yml — password_secret, root hash, HTTP/TLS, trusted proxies, CORS, ES/OS hosts, MongoDB URI, SMTP, journal. Built-in demo/self-test paths and severity gates help validate detections without touching production when those flags are used.
 
 ---
 
@@ -43,7 +43,10 @@ Graylog server configuration hardening auditor (offline, read-only)
 ## 🚀 Usage
 
 ```bash
-./OGraylogX
+./OGraylogX                                     # interactive menu
+./OGraylogX --scan -r /path/to/root
+./OGraylogX --demo
+./OGraylogX --help
 ```
 
 ---
